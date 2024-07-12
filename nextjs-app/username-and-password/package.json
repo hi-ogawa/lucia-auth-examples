@@ -13,9 +13,12 @@
 		"@node-rs/argon2": "^1.8.3",
 		"better-sqlite3": "^9.2.2",
 		"lucia": "^3.2.0",
-		"next": "14.0.4",
-		"react": "^18",
-		"react-dom": "^18"
+    "@hiogawa/react-server": "latest",
+    "next": "npm:@hiogawa/react-server-next@latest",
+    "react": "rc",
+    "react-dom": "rc",
+    "react-server-dom-webpack": "rc",
+		"vite": "latest"
 	},
 	"devDependencies": {
 		"@types/better-sqlite3": "^7.6.8",
